@@ -8,9 +8,9 @@
 
 import Foundation
 
-class item {
+class Item: Codable {
     
     var title : String = ""
-    var isDone : Bool = true
+    var isDone : Bool = false
     
 }
